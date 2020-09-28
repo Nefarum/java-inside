@@ -1,9 +1,5 @@
 language: java
 jdk: openjdk15
 
-jobs:
-  include:
-    - stage: test
-
 script:
   - mvn package
